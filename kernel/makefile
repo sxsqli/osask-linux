@@ -17,7 +17,7 @@ LD = ld
 OBJCOPY = objcopy
 MAKE = make
 
-CFLAGS = -c -m32 -fno-builtin
+CFLAGS = -c -m32 -fno-builtin -fno-stack-protector
 CFLAGS += -Iinclude -I..
 #CFLAGS += -DSLOWDOWN=10
 

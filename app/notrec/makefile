@@ -12,7 +12,7 @@ default: all
 
 %.o: %.c
 	@echo " 	[CC] 	$<"
-	@gcc -c -m32 -fno-builtin $< -o $@ -I../../ -I../libc
+	@gcc -c -m32 -fno-builtin -fno-stack-protector $< -o $@ -I../../ -I../libc
 
 
 all: $(c-obj)

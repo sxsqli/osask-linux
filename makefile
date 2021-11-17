@@ -4,7 +4,7 @@ kernel-target = kernel/kernel.bin
 target-image = os.img
 empty-image = empty.img
 
-tmp-mount-point = mnt
+tmp-mount-point = tmp
 
 MAKE = make
 ECHO = echo

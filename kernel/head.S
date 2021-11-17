@@ -4,7 +4,7 @@
 CODE_BASE_ADDR      EQU     0x00280000
 STACK_TOP           EQU     0x00400000
 
-VBEMODE             EQU     0x101
+VBEMODE             EQU     0x105
 ;0x101 640*480*8
 ;0x103 800*600*8
 ;0x105 1024*768*8

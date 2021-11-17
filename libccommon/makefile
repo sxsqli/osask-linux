@@ -5,7 +5,7 @@ target = libccommon.o
 
 default: all
 
-CFLAGS = -c -m32 -fno-builtin
+CFLAGS = -c -m32 -fno-builtin -fno-stack-protector
 
 %.o: %.c
 	@echo " 	[CC] 	$<"
